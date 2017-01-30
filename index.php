@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8"/>
-        <meta name="author" content="Tino Dorn"/>
-        <meta name="application-name" content="Poups"/>
-        <meta name="description" content="Une petite app pour la famille... Domotique, Gestion et le tout en quelques clics"/>
-        <link href="Extensions/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet"/>
-        <link href="Extensions/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-        <link href="main_style.css" rel="stylesheet"/>
-        <title>POUPS</title>
-    </head>
+    <?php include 'Includes/head.php'; ?>
     <body class="container background">
         <div class="col-xs-8 col-xs-offset-2 middle jumbotron">
             <h1 class="text-center">Bienvenue sur Poups !</h1>
@@ -20,13 +11,14 @@
                 <input type="email" class="form-control" placeholder="xyz@exeample.com" name="mail"  id="mail"/>
                 <label for="pass" class="margin-top-form">Mot de passe : </label>
                 <input type="password" class="form-control" placeholder="Il doit être tenu secret" name="pass" id="pass"/>
-                <!--<input type="checkbox" name="stayconnected" id="stayconnected" class="margin-top-form"/>
-                <label for="stayconnected" class="margin-top-form">Rester connecté</label>-->
+                <input type="checkbox" name="stayconnected" id="stayconnected" class="margin-top-form"/>
+                <label for="stayconnected" class="margin-top-form">Rester connecté</label>
                 <label for="submit"></label>
                 <input type="submit" class="form-control btn btn-success" name="submit" id="submit"/>
             </form>
             <p class="text-center">Pas encore inscrit ? Il ne manquait plus que ça !</p>
-            <a href="Gestions/inscription.html" class="btn form-control btn-warning">Inscription</a>
+            <a href="Gestions/inscription.php" class="btn form-control btn-warning">Inscription</a>
         </div>
     </body>
+    <?php include 'Includes/scripts.php' ?>
 </html>

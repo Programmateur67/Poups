@@ -56,7 +56,7 @@
       cursoropacitymax:1,
       cursorcolor:"#424242",
       cursorwidth:"5px",
-      cursorborder:"1px solid #fff",
+      cursorborder:"1px solid #000000",
       cursorborderradius:"5px",
       scrollspeed:60,
       mousescrollstep:8*3,

@@ -1,20 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8"/>
-        <meta name="author" content="Tino Dorn"/>
-        <meta name="application-name" content="Poups"/>
-        <meta name="description" content="Une petite app pour la famille... Domotique, Gestion et le tout en quelques clics"/>
-        <link href="../Extensions/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet"/>
-        <link href="../Extensions/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-        <link href="../main_style.css" rel="stylesheet"/>
-        <title>POUPS</title>
-    </head>
-    <body class="container background">
+    <?php include '../Includes/head2.php'; ?>
+    <body id="body" class="container background">
         <div class="col-xs-8 col-xs-offset-2 middle jumbotron">
             <h1 class="text-center">Inscription sur Poups !</h1>
             <h3>Il est temps de s'y mettre, allez Poupsons !</h3>
-            <form class="well">
+            <form action="add_inscription.php" method="post" class="well">
                 <legend>Partie virtuelle : </legend>
                 <label for="pseudo">Votre pseudonyme : </label>
                 <input type="text" class="form-control" placeholder="BetaBoy" name="pseudo"  id="pseudo"/>
@@ -40,7 +31,8 @@
                 <input type="submit" class="form-control btn btn-success" name="submit" id="submit"/>
             </form>
             <p>Vu que ce site est uniquement, pour ma famille un tel formulaire paraît inadapté. Mais tout est utile !</p>
-            <a href="">Explication de l'utilité et de l'utilisitaion des données</a>
+            <a href="../Secondaires/explainDATA.php">Explication de l'utilité et de l'utilisitaion des données</a>
         </div>
     </body>
+    <?php include '../Includes/scripts2.php' ?>
 </html>
