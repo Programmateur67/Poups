@@ -4,6 +4,7 @@ body
     padding: 0px;
 }
 .background {
+    margin: 0px;
     background-image: url(Images/night-sky-stars.jpeg);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -20,33 +21,40 @@ body
 .margin-top-form {
     margin-top: 10px;
 }
+.black{
+    color: black;
+}
+.red {
+    color: red;
+}
 
+.btn-plus-home {
+    font-size: 20px;
+}
 
+.navbar-transparent {
+    border: none;
+    background-color: transparent;
+}
 
-.backnav {
+.margin-home {
+    margin-right: 5px;
+}
+
+.whitos {
     background-color: #e7e7e7;
 }
 
-.divbtn {
-    background-color: #222222;
-    padding: 15px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.italic {
+    font-style: italic;
 }
 
-.navbar-special {
-    border-color: #222222;
-    border-top-width: 10px;
-    border-radius: 0px;
+.non-bold {
+    font-weight: 100;
 }
 
-.btn-black {
-    background-color: #222222;
-    color: white;
-    border: 0px;
-}
-
-.leftandtop {
-    margin-top: 5px;
-    margin-right: 50px;
+.tache {
+    min-height: 50px;
+    max-height: 250px;
+    overflow-y: scroll;
 }
