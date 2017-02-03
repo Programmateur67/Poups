@@ -1,6 +1,4 @@
 body
-{
-    margin: 0px;
     padding: 0px;
 }
 .background {
@@ -11,13 +9,6 @@ body
     background-position: center;
     background-size: cover;
 }
-
-
-
-.middle {
-    margin-top: 2.5%;
-}
-
 .margin-top-form {
     margin-top: 10px;
 }
@@ -40,9 +31,18 @@ body
 .margin-home {
     margin-right: 5px;
 }
+.backnav {
+    background-color: #e7e7e7;
+}
 
 .whitos {
     background-color: #e7e7e7;
+}
+.divbtn {
+    background-color: #222222;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .italic {
